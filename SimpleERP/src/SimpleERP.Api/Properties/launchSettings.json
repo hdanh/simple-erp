@@ -19,7 +19,7 @@
     "SimpleERP.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/home",
+      "launchUrl": "http://localhost:5000/api/v1",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
