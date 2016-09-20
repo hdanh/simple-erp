@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>30139885-c30a-488f-87d6-f95c33ead6f6</ProjectGuid>
-    <RootNamespace>SimpleERP.Infrastructure</RootNamespace>
+    <ProjectGuid>02df5af8-5e33-4cba-b964-6db07330ba63</ProjectGuid>
+    <RootNamespace>SimpleERP.Core</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
