@@ -7,8 +7,8 @@ using SimpleERP.Infrastructure.Models;
 
 namespace SimpleERP.Infrastructure.Data
 {
-    public interface IRepository<T, in TId>
-        where T : BaseEntity<TId>
+    public interface IRepository<T>
+		where T : BaseEntity
     {
         IQueryable<T> Query();
 

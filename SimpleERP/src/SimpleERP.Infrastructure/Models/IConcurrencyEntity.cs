@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SimpleERP.Infrastructure.Models
 {
-    public interface IConcurrency
+    public interface IConcurrencyEntity
     {
         byte[] Tstamp { get; set; }
     }
